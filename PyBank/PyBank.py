@@ -20,7 +20,7 @@ def print_write_result(result,output_file):
         print(result)
 
 
-def main(budget_path, output_file):
+def PyBank(budget_path, output_file):
     # initiate a dictionary for budget data
     budget_dct = {}
     # Write CSV file in dictionary
@@ -77,4 +77,4 @@ if __name__ == "__main__":
     budget_path = Path("./Resources/budget_data.csv")
     # output path
     output_file = Path("./budget_report.txt")
-    main(budget_path, output_file)
+    PyBank(budget_path, output_file)
